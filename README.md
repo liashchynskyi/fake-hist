@@ -19,8 +19,6 @@ import org.liashchynskyi.gan.GeneratorBuilder;
 
 This code **always** generates images for all classes. Summary, in the example above we get 5 images, one image per class.
 
-## Download JAR
-
-**There is no public sources, only JAR library!**
+## Download JAR (no sources)
 
 See [releases](https://github.com/liashchynskyi/fake-hist/releases).
