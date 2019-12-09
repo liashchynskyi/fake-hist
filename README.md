@@ -7,7 +7,7 @@ import org.liashchynskyi.gan.GeneratorBuilder;
 ...
 
     public static String[] labels = new String[]{"label1", "label2", "label3", "label4", "label5"}; //for subdirectories in the output folder
-    public static final String MODEL_PATH = "path/to/model/dir/model";
+    public static final String MODEL_PATH = "path/to/model/dir";
     
     Generator generator = new GeneratorBuilder().labels(labels).modelPath(MODEL_PATH).num(5).build();
     generator.loadAndPredict("output/folder");
@@ -22,4 +22,9 @@ This code **always** generates images for all classes. Summary, in the example a
 
 ## Download JAR (no sources)
 
-See [releases](https://github.com/liashchynskyi/fake-hist/releases).
+Latest release is [1.0-beta](https://github.com/liashchynskyi/fake-hist/releases/tag/1.0-beta). See [releases](https://github.com/liashchynskyi/fake-hist/releases) for more info. 
+
+* Download JAR
+* Download `model.tar`
+* Unpack `tar`
+* See the example above
