@@ -16,6 +16,7 @@ import org.liashchynskyi.gan.GeneratorBuilder;
 ```
 
 > There are 5 classes of histological images.
+**Note:** set number of generated images to multiple of number of classes.
 
 This code **always** generates images for all classes. Summary, in the example above we get 5 images, one image per class.
 
