@@ -28,3 +28,16 @@ Latest release is [1.0-beta](https://github.com/liashchynskyi/fake-hist/releases
 * Download `model.tar`
 * Unpack `tar`
 * See the example above
+
+
+## Citation
+```
+@misc{liashchynskyi2019,
+  author = {Liashchynskyi, Petro},
+  title = {fake-hist},
+  year = {2019},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/liashchynskyi/fake-hist}},
+}
+````
