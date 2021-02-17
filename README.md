@@ -1,6 +1,7 @@
 
 # GAN-based generator for histological images
 <center><img src="https://i.ibb.co/sW0SY2Y/Picture-1.png" alt="Picture-1" border="0"></center>
+
 # Example
 
 ```java
