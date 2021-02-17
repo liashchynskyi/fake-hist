@@ -9,7 +9,7 @@ import org.liashchynskyi.gan.Generator;
 import org.liashchynskyi.gan.GeneratorBuilder;
 
 ...
-
+    //for subdirectories in the output folder
     public static String[] labels = new String[]{
         "hist_proliferative_mast", 
         "histo_fibroadenoma", 
