@@ -31,9 +31,7 @@ Latest release is [1.0-beta](https://github.com/liashchynskyi/fake-hist/releases
 * Download JAR
 * Download `model.tar`
 * Unpack `tar`
-* Add jar executable to Java `classpath`
-* See the example above
-
+* Add `jar` executable to Java `classpath`
 
 ## Citation
 ```
