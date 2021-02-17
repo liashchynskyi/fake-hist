@@ -19,7 +19,11 @@ import org.liashchynskyi.gan.GeneratorBuilder;
     };
     public static final String MODEL_PATH = "path/to/model/dir";
     
-    Generator generator = new GeneratorBuilder().labels(labels).modelPath(MODEL_PATH).num(5).build();
+    Generator generator = new GeneratorBuilder()
+                                .labels(labels)
+                                .modelPath(MODEL_PATH)
+                                .num(5) // examples to generate
+                                .build();
     generator.loadAndPredict("output/folder");
         
 ...
@@ -28,7 +32,7 @@ import org.liashchynskyi.gan.GeneratorBuilder;
 > There are 5 classes of histological images.
 **Note:** set number of generated images to multiple of number of classes.
 
-This code **always** generates images for all classes. Summary, in the example above we get 5 images, one image per class.
+This code **always** generates images for all classes. In the example above we get 5 images in summary, one image per class.
 
 ## Download JAR (no sources)
 
