@@ -10,7 +10,13 @@ import org.liashchynskyi.gan.GeneratorBuilder;
 
 ...
 
-    public static String[] labels = new String[]{"label1", "label2", "label3", "label4", "label5"}; //for subdirectories in the output folder
+    public static String[] labels = new String[]{
+        "hist_proliferative_mast", 
+        "histo_fibroadenoma", 
+        "histo_fibrozno_kistozna_mastopatia", 
+        "histo_lystovydna_fibroadenoma", 
+        "histo_neproliferatyvna_mastopatia"
+    };
     public static final String MODEL_PATH = "path/to/model/dir";
     
     Generator generator = new GeneratorBuilder().labels(labels).modelPath(MODEL_PATH).num(5).build();
